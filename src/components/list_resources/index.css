@@ -1,0 +1,105 @@
+.list-resources {
+    position: relative;
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: wrap;
+}
+
+.wrap_card_resources {
+    margin-top: 60px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+}
+
+.card_resources {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    color: black;
+    cursor: pointer;
+}
+
+.card_head_resources {
+    width: 100%;
+    height: 70%;
+    background-position: left;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+    color: black;
+    background-repeat: no-repeat;
+}
+
+.card_head_resources img {
+    width: 100%;
+    height: 100%;
+    background-position: left;
+    background-size: cover;
+}
+
+.title_card {
+    position: relative;
+    left: 0;
+    font-size: 18px;
+    color: rgb(68, 68, 68);
+}
+
+.list_desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.card_body_resources {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.menu_kategori {
+    position: relative;
+    padding: 10px;
+    margin-left: -40px;
+    margin-top: 80px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_kategori ul {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.menu_kategori ul li {
+    list-style: none;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+.list-tools {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 2px;
+}

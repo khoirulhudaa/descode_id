@@ -1,0 +1,8 @@
+.Bg {
+    position: absolute;
+    z-index: 1;
+    top: -510px;
+    left: -300px;
+    width: 2532px;
+    height: 3510px;
+}

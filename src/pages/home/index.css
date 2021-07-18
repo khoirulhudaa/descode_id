@@ -1,0 +1,74 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    overflow-x: hidden;
+    z-index: -1;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.Bg {
+    position: absolute;
+    z-index: 1;
+    top: -510px;
+    left: -300px;
+    width: 2532px;
+    height: 3010px;
+}
+
+.wrapCircle {
+    position: absolute;
+    top: 500px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circleBig {
+    position: absolute;
+}
+
+.circleBig1 {
+    width: 950px;
+    border: 2px solid;
+    height: 950px;
+    background: rgba(255, 255, 255, 0);
+    border: solid 2px rgba(255, 255, 255, 0.877);
+    box-sizing: border-box;
+    border-radius: 100%;
+    border-image-slice: 700;
+    border-image-repeat: round;
+    border-image-width: 300px; 
+}
+
+.circleBig2 {
+    border-radius: 1100px;
+    width: 700px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0);
+    border: solid 2px rgba(255, 255, 255, 0.877);
+    box-sizing: border-box;
+    border-radius: 100%;
+    border-image-slice: 700; /* border-radius*2 */
+    border-image-repeat: round;
+    border-image-width: 300px; /* border-radius*2 */
+}
+
+.backgroundMain {
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 3406px;
+}

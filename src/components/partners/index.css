@@ -1,0 +1,66 @@
+
+/* Section - Partners */
+
+.partners {
+    z-index: 11;
+    position: relative;
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.partners img {
+    margin-bottom: 30px;
+}
+
+.partners h2 {
+    z-index: 11;
+    position: relative;
+    margin-left: 75px;
+    font-weight: bold;
+    font-size: 34px;
+    color: #1E272E;
+}
+
+.partners h2::before {
+    z-index: 11;
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 4px;
+    bottom: -10px;
+    background-color: #0984E3;
+}
+
+.listPartners {
+    z-index: 11;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+    align-items: center;
+    width: 85%;
+    height: max-content;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.didin {
+    z-index: 11;
+    position: absolute;
+    width: 140.3px;
+    height: 112px;
+    left: 194px;
+    top: 424px;
+}
+
+.fauzi {
+    z-index: 11;
+    position: absolute;
+    width: 122.3px;
+    height: 132px;
+    right: 194px;
+    top: 534px;
+}

@@ -1,0 +1,75 @@
+/* Section -interested */
+
+.interested {
+    z-index: 11;
+    position: relative;
+    width: 100vw;
+    height: max-content;
+    text-align: center;
+    display: flex;
+    margin-top: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxInterested {
+    z-index: 11;
+    position: relative;
+    width: 70%;
+    height: 350px;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    transform: scale(0.95);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(97deg, #12C2E9 1.53%, #C471ED 50.04%, #F64F59 94.66%);
+}
+
+.boxInterested h1 {
+    z-index: 11;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.boxInterested p {
+    z-index: 11;
+    margin-top: 30px;
+    width: 80%;
+}
+
+.btnChat {
+    z-index: 11;
+    position: relative;
+    width: 250px;
+    font-weight: 600;
+    height: 58px;
+    color: #0984E3;
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.manLeft {
+    z-index: 11;
+    position: absolute;
+    left: -158px;
+    margin-top: -90px;
+    width: 200px;
+}
+
+.manRight {
+    z-index: 11;
+    position: absolute;
+    margin-top: 100px;
+    width: 290px;   
+    right: -158px;
+}
