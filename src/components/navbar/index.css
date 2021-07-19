@@ -3,9 +3,9 @@
     position: relative;
     width: 100vw;
     height: 70px;
-    background-color: transparent;
     display: flex;
     padding: 30px;
+    margin-bottom: 30PX;
     justify-content: space-around;
     align-items: center;
     text-align: center;

@@ -22,7 +22,7 @@ export default function List_resources() {
                 </ul>
             </div>
             <div className="wrap_card_resources">
-                <div className="card_resources">
+                <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
                         <img src={Bg1} alt="img_resources" className="img_resources" />
                     </div>
@@ -43,7 +43,7 @@ export default function List_resources() {
                         </div>
                     </div>
                 </div>
-                <div className="card_resources">
+                <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
                         <img src={Bg2} alt="img_resources" className="img_resources" />
                     </div>
@@ -64,7 +64,7 @@ export default function List_resources() {
                         </div>
                     </div>
                 </div>
-                <div className="card_resources">
+                <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
                         <img src={Bg3} alt="img_resources" className="img_resources" />
                     </div>
@@ -85,7 +85,7 @@ export default function List_resources() {
                         </div>
                     </div>
                 </div>
-                <div className="card_resources">
+                <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
                         <img src={Bg1} alt="img_resources" className="img_resources" />
                     </div>
@@ -106,7 +106,7 @@ export default function List_resources() {
                         </div>
                     </div>
                 </div>
-                <div className="card_resources">
+                <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
                         <img src={Bg1} alt="img_resources" className="img_resources" />
                     </div>
@@ -127,7 +127,7 @@ export default function List_resources() {
                         </div>
                     </div>
                 </div>
-                <div className="card_resources">
+                <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
                         <img src={Bg2} alt="img_resources" className="img_resources" />
                     </div>
@@ -148,7 +148,7 @@ export default function List_resources() {
                         </div>
                     </div>
                 </div>
-                <div className="card_resources">
+                <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
                         <img src={Bg3} alt="img_resources" className="img_resources" />
                     </div>
@@ -169,7 +169,7 @@ export default function List_resources() {
                         </div>
                     </div>
                 </div>
-                <div className="card_resources">
+                <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
                         <img src={Bg1} alt="img_resources" className="img_resources" />
                     </div>
@@ -190,7 +190,7 @@ export default function List_resources() {
                         </div>
                     </div>
                 </div>
-                <div className="card_resources">
+                <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
                         <img src={Bg1} alt="img_resources" className="img_resources" />
                     </div>
@@ -211,7 +211,7 @@ export default function List_resources() {
                         </div>
                     </div>
                 </div>
-                <div className="card_resources">
+                <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
                         <img src={Bg2} alt="img_resources" className="img_resources" />
                     </div>
@@ -232,7 +232,7 @@ export default function List_resources() {
                         </div>
                     </div>
                 </div>
-                <div className="card_resources">
+                <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
                         <img src={Bg3} alt="img_resources" className="img_resources" />
                     </div>
@@ -253,7 +253,7 @@ export default function List_resources() {
                         </div>
                     </div>
                 </div>
-                <div className="card_resources">
+                <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
                         <img src={Bg1} alt="img_resources" className="img_resources" />
                     </div>

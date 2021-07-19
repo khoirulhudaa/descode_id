@@ -6,7 +6,7 @@
     width: 100vw;
     height: max-content;
     display: flex;
-    margin-top: 190px;
+    padding-top: 190px;
     padding-bottom: 30px;
     flex-direction: column;
     justify-content: center;

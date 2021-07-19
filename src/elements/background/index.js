@@ -4,6 +4,6 @@ import './index.css';
 
 export default function Background() {
     return (
-        <img src={Bg_gradient} className="Bg" alt="bG" />
+        <img src={Bg_gradient} className="Bg" lazy="loading" alt="bG" />
     )
 }

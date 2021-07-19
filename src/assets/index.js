@@ -45,11 +45,17 @@ import Reacts from './images/react.svg';
 import Flutter from './images/flutter.svg';
 import Free from './images/free.svg';
 import Send from './images/send.svg';
+import El1 from './images/ecls1.svg';
+import El2 from './images/ecls2.svg';
+import El3 from './images/ecls3.svg';
+import El4 from './images/ecls4.svg';
+import Gr from './images/gr.svg';
 
 export {
     Logo, Edit, Tinder, Tabung, Soffyan, Sinit, Ryan, People_male, People_female, 
     Muk, Moneybird, Kerucut, Instabug, Instabug2, In, Ig, Huda, Hero_resources, 
     Github, Fb, Fauzi, Equant, Email, Discord, Didin, Circle, Cd1, Cd2, Cd3,
     Capsul, Box, Bg1, Bg2, Bg3, Bg4, Bg_gradient, Amazon, Albingia, Circle_hero,
-    Banner, Banner2, Search, Figma, Reacts, Flutter, Free, Send
+    Banner, Banner2, Search, Figma, Reacts, Flutter, Free, Send, El1, El2, El3, El4,
+    Gr
 }

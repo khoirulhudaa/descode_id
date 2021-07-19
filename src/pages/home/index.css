@@ -15,15 +15,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.Bg {
-    position: absolute;
-    z-index: 1;
-    top: -510px;
-    left: -300px;
-    width: 2532px;
-    height: 3010px;
-}
-
 .wrapCircle {
     position: absolute;
     top: 500px;
