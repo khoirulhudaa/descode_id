@@ -1,0 +1,130 @@
+.wrap_auth {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.banner_auth {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4BCFFA;
+}
+
+.logo_desoce {
+    margin-left: -7px;
+    width: 170px;
+    margin-bottom: 20px;
+    height: 28.88px;
+}
+
+.wrap_form_auth2 {
+    height: 900px;
+}
+
+.form_auth2 {
+    position: relative;
+    width: 50%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    padding: 130px 40px 40px 40px;
+    justify-content: center;
+    align-items: left;
+}
+
+.form_auth2 h2 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #1E272E;
+}
+
+.banner_auth .sakura {
+    width: 90%;
+}
+
+.desc {
+    color: rgba(63, 121, 182, 1);
+    font-weight: 700;
+}
+
+.btn_auth {
+    width: 171px;
+    height: 50px;
+    right: 501px;
+    margin-top: 5px;
+    background: #0984E3;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.0015em;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+form {
+    position: relative;
+    margin-top: 40px;
+    transform: scale(0.95);
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+
+form .form-control {
+    width: 417px;
+    height: 56px;
+    right: 265px;
+    margin-bottom: 12px;
+    top: 290px;
+    background-color: #E3EBFF;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}   
+
+.login_google {
+    margin-top: 30px;
+}
+
+.btn_google {   
+    width: 417px;
+    margin-top: 30px;
+    height: 56px;
+    right: 265px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    top: 640px;
+    background: #0984E3;
+    border-radius: 8px;
+}
+
+.span_icon {
+    width: max-content;
+    position: absolute;
+    left: 45px;
+    margin-top: -12px;
+}
+
+.span_text {
+    font-weight: bold;
+}
+
+.signUp {
+    color: #0984E3;
+    cursor: pointer;
+    text-decoration: none;
+}

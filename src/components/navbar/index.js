@@ -30,8 +30,8 @@ export default function Navbar({active1, active2, active3}) {
                                 </li>
                             </ul>
                     <div>
-                        <button className="btn mr-4" style={{marginRight: 20}} type="submit">Sign in</button>
-                        <button className="btn btn-primary ml-4" type="submit">Sign up</button>
+                        <Link to="/sign_in"><button className="btn mr-4" style={{marginRight: 20}} type="submit">Sign in</button></Link>
+                        <Link to="/sign_up"><button className="btn btn-primary ml-4" type="submit">Sign up</button></Link>
                     </div>
                     </div>
                 </div>

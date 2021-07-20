@@ -39,8 +39,8 @@ export default function Hero() {
                 <img src={Circle_hero} alt="circle_hero" />
             </div>
             
-            <h1><span style={{'color': '#0984E3'}} data-aos="fade-up" className="desc"><img src={Edit} data-aos="fade-up" className="edit" alt="edit" /><span data-aos="fade-up" className="descode">Descode.id</span></span> providing inovation for designers and programmers</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius quos, sed nobis dolor possimus tempora.</p>
+            <h1 data-aos="fade-up"><span style={{'color': '#0984E3'}} data-aos="fade-up" className="desc"><img src={Edit} data-aos="fade-up" className="edit" alt="edit" /><span data-aos="fade-up" className="descode">Descode.id</span></span> providing inovation for designers and programmers</h1>
+            <p data-aos="fade-up">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius quos, sed nobis dolor possimus tempora.</p>
             <button data-aos="fade-up" className="btnSectionHero">Explore Descode Now</button>
         </section>
     )
