@@ -7,9 +7,11 @@ import {
     Free,
     Bg1,
     Bg2,
-    Bg3
+    Bg3,
+    Download_icon
 } from '../../assets/';
 import { Interested, Footer } from '../../components/';
+import {Link} from 'react-router-dom';
 
 export default function List_resources() {
     return (
@@ -24,6 +26,105 @@ export default function List_resources() {
             <div className="wrap_card_resources">
                 <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
+                        <Link to="/detail_product">
+                            <img src={Download_icon} className="download_icon" alt="download_icon" />
+                        </Link>
+                        <img src={Bg1} alt="img_resources" className="img_resources" />
+                    </div>
+                    <div className="card_body_resources">
+                        <div className="list_desc">
+                            <h2 className="title_card">Design app healt</h2>
+                            <span className="status">
+                                <img src={Free} alt="status" />
+                            </span>
+                        </div>
+                        <div className="list_tools">
+                            <span>
+                                <img src={Figma} alt="tools" />
+                            </span>
+                            <span>
+                                <img src={Reacts} alt="tools" />
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" className="card_resources">
+                        <div className="card_head_resources">
+                        <Link to="/detail_product">
+                            <img src={Download_icon} className="download_icon" alt="download_icon" />
+                        </Link>
+                            <img src={Bg2} alt="img_resources" className="img_resources" />
+                        </div>
+                    <div className="card_body_resources">
+                        <div className="list_desc">
+                        <h2  className="title_card">Design app healt</h2>
+                        <span className="status">
+                            <img src={Free} alt="status" />
+                        </span>
+                        </div>
+                        <div className="list_tools">
+                            <span>
+                                <img src={Figma} alt="tools" />
+                            </span>
+                            <span>
+                                <img src={Reacts} alt="tools" />
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" className="card_resources">
+                        <div className="card_head_resources">
+                        <Link to="/detail_product">
+                            <img src={Download_icon} className="download_icon" alt="download_icon" />
+                        </Link>
+                            <img src={Bg3} alt="img_resources" className="img_resources" />
+                        </div>  
+                    <div className="card_body_resources">
+                        <div className="list_desc">
+                        <h2  className="title_card">Design app healt</h2>
+                        <span className="status">
+                            <img src={Free} alt="status" />
+                        </span>
+                        </div>
+                        <div className="list_tools">
+                            <span>
+                                <img src={Figma} alt="tools" />
+                            </span>
+                            <span>
+                                <img src={Reacts} alt="tools" />
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" className="card_resources">
+                        <div className="card_head_resources">
+                        <Link to="/detail_product">
+                            <img src={Download_icon} className="download_icon" alt="download_icon" />
+                        </Link>
+                            <img src={Bg1} alt="img_resources" className="img_resources" />
+                        </div>
+                    <div className="card_body_resources">
+                        <div className="list_desc">
+                        <h2  className="title_card">Design app healt</h2>
+                        <span className="status">
+                            <img src={Free} alt="status" />
+                        </span>
+                        </div>
+                        <div className="list_tools">
+                            <span>
+                                <img src={Figma} alt="tools" />
+                            </span>
+                            <span>
+                                <img src={Reacts} alt="tools" />
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" className="card_resources">
+                    <div className="card_head_resources">
+                        <Link to="/detail_product">
+                            <img src={Download_icon} className="download_icon" alt="download_icon" />
+                        </Link>
                         <img src={Bg1} alt="img_resources" className="img_resources" />
                     </div>
                     <div className="card_body_resources">
@@ -45,6 +146,9 @@ export default function List_resources() {
                 </div>
                 <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
+                        <Link to="/detail_product">
+                            <img src={Download_icon} className="download_icon" alt="download_icon" />
+                        </Link>
                         <img src={Bg2} alt="img_resources" className="img_resources" />
                     </div>
                     <div className="card_body_resources">
@@ -66,6 +170,9 @@ export default function List_resources() {
                 </div>
                 <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
+                        <Link to="/detail_product">
+                            <img src={Download_icon} className="download_icon" alt="download_icon" />
+                        </Link>
                         <img src={Bg3} alt="img_resources" className="img_resources" />
                     </div>
                     <div className="card_body_resources">
@@ -87,6 +194,9 @@ export default function List_resources() {
                 </div>
                 <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
+                        <Link to="/detail_product">
+                            <img src={Download_icon} className="download_icon" alt="download_icon" />
+                        </Link>
                         <img src={Bg1} alt="img_resources" className="img_resources" />
                     </div>
                     <div className="card_body_resources">
@@ -108,6 +218,9 @@ export default function List_resources() {
                 </div>
                 <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
+                        <Link to="/detail_product">
+                            <img src={Download_icon} className="download_icon" alt="download_icon" />
+                        </Link>
                         <img src={Bg1} alt="img_resources" className="img_resources" />
                     </div>
                     <div className="card_body_resources">
@@ -129,6 +242,9 @@ export default function List_resources() {
                 </div>
                 <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
+                        <Link to="/detail_product">
+                            <img src={Download_icon} className="download_icon" alt="download_icon" />
+                        </Link>
                         <img src={Bg2} alt="img_resources" className="img_resources" />
                     </div>
                     <div className="card_body_resources">
@@ -150,6 +266,9 @@ export default function List_resources() {
                 </div>
                 <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
+                        <Link to="/detail_product">
+                            <img src={Download_icon} className="download_icon" alt="download_icon" />
+                        </Link>
                         <img src={Bg3} alt="img_resources" className="img_resources" />
                     </div>
                     <div className="card_body_resources">
@@ -171,90 +290,9 @@ export default function List_resources() {
                 </div>
                 <div data-aos="fade-up" className="card_resources">
                     <div className="card_head_resources">
-                        <img src={Bg1} alt="img_resources" className="img_resources" />
-                    </div>
-                    <div className="card_body_resources">
-                        <div className="list_desc">
-                        <h2  className="title_card">Design app healt</h2>
-                        <span className="status">
-                            <img src={Free} alt="status" />
-                        </span>
-                        </div>
-                        <div className="list_tools">
-                            <span>
-                                <img src={Figma} alt="tools" />
-                            </span>
-                            <span>
-                                <img src={Reacts} alt="tools" />
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" className="card_resources">
-                    <div className="card_head_resources">
-                        <img src={Bg1} alt="img_resources" className="img_resources" />
-                    </div>
-                    <div className="card_body_resources">
-                        <div className="list_desc">
-                            <h2 className="title_card">Design app healt</h2>
-                            <span className="status">
-                                <img src={Free} alt="status" />
-                            </span>
-                        </div>
-                        <div className="list_tools">
-                            <span>
-                                <img src={Figma} alt="tools" />
-                            </span>
-                            <span>
-                                <img src={Reacts} alt="tools" />
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" className="card_resources">
-                    <div className="card_head_resources">
-                        <img src={Bg2} alt="img_resources" className="img_resources" />
-                    </div>
-                    <div className="card_body_resources">
-                        <div className="list_desc">
-                        <h2  className="title_card">Design app healt</h2>
-                        <span className="status">
-                            <img src={Free} alt="status" />
-                        </span>
-                        </div>
-                        <div className="list_tools">
-                            <span>
-                                <img src={Figma} alt="tools" />
-                            </span>
-                            <span>
-                                <img src={Reacts} alt="tools" />
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" className="card_resources">
-                    <div className="card_head_resources">
-                        <img src={Bg3} alt="img_resources" className="img_resources" />
-                    </div>
-                    <div className="card_body_resources">
-                        <div className="list_desc">
-                        <h2  className="title_card">Design app healt</h2>
-                        <span className="status">
-                            <img src={Free} alt="status" />
-                        </span>
-                        </div>
-                        <div className="list_tools">
-                            <span>
-                                <img src={Figma} alt="tools" />
-                            </span>
-                            <span>
-                                <img src={Reacts} alt="tools" />
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" className="card_resources">
-                    <div className="card_head_resources">
+                        <Link to="/detail_product">
+                            <img src={Download_icon} className="download_icon" alt="download_icon" />
+                        </Link>
                         <img src={Bg1} alt="img_resources" className="img_resources" />
                     </div>
                     <div className="card_body_resources">

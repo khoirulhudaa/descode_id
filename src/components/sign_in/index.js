@@ -12,7 +12,7 @@ export default function Signin() {
             <div className="form_auth2">
                 <div className="wrap_form_auth2">
                     <div>
-                        <img src={Logo} className="logo_desoce" alt="logo_desoce" />
+                        <img src={Logo} className="logo_descode" alt="logo_desoce" />
                         <h2>Sign in to <span className="desc">descode</span></h2>
                     </div>
                     <div className="form">

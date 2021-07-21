@@ -56,9 +56,10 @@
     text-decoration: none;
 }
 
-.activeNavbar {
+.active {
+    position: relative;
     z-index: 11;
-    color:  #0984E3;
+    color: #0984E3;
     font-weight: bold;
 }
 

@@ -54,6 +54,13 @@ import Or from './images/or.svg';
 import Google from './images/google.svg';
 import Sakura from './images/sakura.png';
 import Sakura2 from './images/sakura2.png';
+import Descode_line from './images/descode_line.svg';
+import Face1 from './images/face1.svg';
+import Face2 from './images/face2.svg';
+import Web_design from './images/web_design.svg';
+import Download_icon from './images/download_icon.svg';
+import Eye from './images/eye.svg';
+import Message from './images/pesan.svg';
 
 export {
     Logo, Edit, Tinder, Tabung, Soffyan, Sinit, Ryan, People_male, People_female, 
@@ -61,5 +68,6 @@ export {
     Github, Fb, Fauzi, Equant, Email, Discord, Didin, Circle, Cd1, Cd2, Cd3,
     Capsul, Box, Bg1, Bg2, Bg3, Bg4, Bg_gradient, Amazon, Albingia, Circle_hero,
     Banner, Banner2, Search, Figma, Reacts, Flutter, Free, Send, El1, El2, El3, El4,
-    Gr, Or, Google, Sakura, Sakura2
+    Gr, Or, Google, Sakura, Sakura2, Descode_line, Face1, Face2, Web_design, Download_icon,
+    Eye, Message
 }
