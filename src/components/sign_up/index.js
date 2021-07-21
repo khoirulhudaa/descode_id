@@ -12,7 +12,7 @@ export default function Signup() {
                 <img src={Sakura} data-aos="fade-up" alt="banner_iamge" />
             </div>
             <div className="form_auth">
-                <div className="wrap_form_auth">
+                <div className="wrap_form_auth" data-aos="fade-down">
                     <div>
                         <img src={Logo} className="logo_desoce" alt="logo_desoce" />
                         <h2>Sign up to <span className="desc">descode</span></h2>
