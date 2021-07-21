@@ -2,12 +2,14 @@ import React from 'react';
 import './index.css';
 import {Logo} from '../../assets';
 import {Or, Google, Sakura2} from '../../assets/';
+import {Link} from 'react-router-dom';
+
 
 export default function Signin() {
     return (
         <div className="wrap_auth">
             <div className="banner_auth">
-                <img src={Sakura2} className="sakura" alt="banner_image" />
+                <img src={Sakura2} data-aos="fade-up" className="sakura" alt="banner_image" />
             </div>
             <div className="form_auth2">
                 <div className="wrap_form_auth2">
@@ -40,7 +42,7 @@ export default function Signin() {
                         </button>
                     </div>
                     <div className="account">
-                        <small>Don't have an account? <a className="signUp">Sign up</a></small>
+                        <small>Don't have an account? <Link to="/sign_up"><a className="signUp">Sign up</a></Link></small>
                     </div>
                 </div>
             </div>

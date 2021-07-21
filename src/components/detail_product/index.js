@@ -5,8 +5,6 @@ import {
     Web_design, 
     Descode_line, 
     Face1, 
-    Face2, 
-    Bg1,
     Bg2, 
     Bg3, 
     Download_icon, 

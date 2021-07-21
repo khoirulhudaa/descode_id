@@ -17,7 +17,7 @@ export default function Form() {
                 <form>
                     <input type="text" name="email" data-aos="fade-up" className="email" placeholder="your email..." />
                     <textarea type="text" name="request" data-aos="fade-up" className="request" placeholder="your request ?"></textarea>
-                    <button data-aos="fade-up" className="btn btn-primary btn_send"><span> <img src={Send} style={{color: 'white'}} alt="send" /> send</span></button>
+                    <button data-aos="fade-up" className="btn btn-primary btn_send" style={{transform: 'scale(1.07)', marginLeft: '7px'}}><span> <img src={Send} style={{color: 'white'}} alt="send" /> send</span></button>
                 </form>
             </div>
         </div>
