@@ -18,72 +18,72 @@ import {Link} from 'react-router-dom';
 
 export default function Detail_product() {
     return (
-        <div className="wrap_detail_product">
-            <div className="box_detail_product">
-                <div className="wrap_box_detail_top">
-                    <div className="detail_images">
-                        <div className="image_main">
+        <div data-aos="fade-up" className="wrap_detail_product">
+            <div data-aos="fade-up" className="box_detail_product">
+                <div data-aos="fade-up" className="wrap_box_detail_top">
+                    <div data-aos="fade-up" className="detail_images">
+                        <div data-aos="fade-up" className="image_main">
                             <img src={Bg2} alt="img_main" />
                         </div>
-                        <div className="list_images">
-                            <div className="images">
+                        <div data-aos="fade-up" className="list_images">
+                            <div data-aos="fade-up" className="images">
                                 <img src={Bg3} alt="images" />
                             </div>
-                            <div className="images">
+                            <div data-aos="fade-up" className="images">
                                 <img src={Bg3} alt="images" />
                             </div>
-                            <div className="images">
+                            <div data-aos="fade-up" className="images">
                                 <img src={Bg3} alt="images" />
                             </div>
                         </div>
                     </div>
-                    <div className="detail_content">
+                    <div data-aos="fade-up" className="detail_content">
                         <h2>Onboarding screens for mobile App</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Molestias facere velit amet nihil repellendus in.
                         </p>
                         <div>
-                            <img src={Free} className="status" alt="status" />
-                            <img src={Web_design} className="status2" alt="status2" />
+                            <img src={Free} data-aos="fade-up" className="status" alt="status" />
+                            <img src={Web_design} data-aos="fade-up" className="status2" alt="status2" />
                             <br />
-                            <small className="price"><s>$15</s></small>
+                            <small data-aos="fade-up" className="price"><s>$15</s></small>
                             <br />
-                            <small className="discount">$0</small>
+                            <small data-aos="fade-up" className="discount">$0</small>
                         </div>
                         <div>
-                            <button className="btn btn-primary btn_download">
+                            <button data-aos="fade-up" className="btn btn-primary btn_download">
                                 <img src={Download_icon} alt="download_icon" />
                                 Download with free
                             </button>
                         </div>
-                        <div className="wrap_analytics">
-                            <div className="viewers">
+                        <div data-aos="fade-up" className="wrap_analytics">
+                            <div data-aos="fade-up" className="viewers">
                                 <img src={Eye} alt="viewers" />
                                 <br />
                                 <br />
-                                <span><span className="num_viewers">3.323</span> viewers</span>
+                                <span><span data-aos="fade-up" className="num_viewers">3.323</span> viewers</span>
                             </div>
-                            <div className="downloads">
+                            <div data-aos="fade-up" className="downloads">
                                 <img src={Download_icon} alt="download" />
                                 <br />
                                 <br />
-                                <span><span className="num_viewers">3.323</span> viewers</span>
+                                <span><span data-aos="fade-up" className="num_viewers">3.323</span> viewers</span>
                             </div>
                         </div>
-                        <div className="contributor">
+                        <div data-aos="fade-up" className="contributor">
                             <h3>Contributor</h3>
-                            <div className="list_contributor">
-                            <div className="wrap_contributor">
-                                <div className="image_contributor"><img src={Face1} alt="face_image" /></div>
-                                <div className="bio_contributor">
+                            <div data-aos="fade-up" className="list_contributor">
+                            <div data-aos="fade-up" className="wrap_contributor">
+                                <div data-aos="fade-up" className="image_contributor"><img src={Face1} alt="face_image" /></div>
+                                <div data-aos="fade-up" className="bio_contributor">
                                     <h4>Ibnu soffyan tshauri</h4>
                                     <small>UI/UX Designer</small>
                                 </div>
                             </div>
-                            <div className="wrap_contributor">
-                                <div className="image_contributor"><img src={Face1} alt="face_image" /></div>
-                                <div className="bio_contributor">
+                            <div data-aos="fade-up" className="wrap_contributor">
+                                <div data-aos="fade-up" className="image_contributor"><img src={Face1} alt="face_image" /></div>
+                                <div data-aos="fade-up" className="bio_contributor">
                                     <h4>Ryan aprianto</h4>
                                     <small>Mobile developer</small>
                                 </div>
@@ -92,32 +92,33 @@ export default function Detail_product() {
                         </div>
                     </div>
                 </div>
-                <div className="wrap_box_detail_bottom">
-                    <div className="wrap_descode_line">
-                        <img src={Descode_line} alt="descode_line" className="descode_line" />
+                <div data-aos="fade-up" className="wrap_box_detail_bottom">
+                    <div data-aos="fade-up" className="wrap_descode_line">
+                        <img src={Descode_line} alt="descode_line" data-aos="fade-up" className="descode_line" />
                         <h4>Thank you</h4>
-                        <button className="btn btn-primary btn_hire_me">
+                        <button data-aos="fade-up" className="btn btn-primary btn_hire_me">
                             <img src={Message} alt="pesan_icon" />
                             Hire me
                         </button>
                     </div>
-                    <div className="wrap_resources_similiar">
+                    <div data-aos="fade-up" className="wrap_resources_similiar">
                         <h4>Similiar to</h4>
-                        <div className="list_resources_similiar">
-                        <div className="card_resources">
-                                <Link to="/detail_product">
-                                <div className="card_head_resources">
-                                    <img src={Bg2} alt="img_resources" className="img_resources" />
+                        <div data-aos="fade-up" className="list_resources_similiar">
+                        <div data-aos="fade-up" className="card_resources">
+                                <div data-aos="fade-up" className="card_head_resources">
+                                    <Link to="/detail_product">
+                                        <img src={Download_icon} className="download_icon" alt="download_icon" />
+                                    </Link>
+                                    <img src={Bg2} alt="img_resources" data-aos="fade-up" className="img_resources" />
                                 </div>
-                                </Link>
-                                <div className="card_body_resources">
-                                    <div className="list_desc">
-                                        <h2 className="title_card">Design app healt</h2>
-                                        <span className="status">
+                                <div data-aos="fade-up" className="card_body_resources">
+                                    <div data-aos="fade-up" className="list_desc">
+                                        <h2 data-aos="fade-up" className="title_card">Design app healt</h2>
+                                        <span data-aos="fade-up" className="status">
                                             <img src={Free} alt="status" />
                                         </span>
                                     </div>
-                                    <div className="list_tools">
+                                    <div data-aos="fade-up" className="list_tools">
                                         <span>
                                             <img src={Figma} alt="tools" />
                                         </span>
@@ -127,20 +128,21 @@ export default function Detail_product() {
                                     </div>
                                 </div>
                             </div>
-                        <div className="card_resources">
-                                <Link to="/detail_product">
-                                <div className="card_head_resources">
-                                    <img src={Bg3} alt="img_resources" className="img_resources" />
+                        <div data-aos="fade-up" className="card_resources">
+                                <div data-aos="fade-up" className="card_head_resources">
+                                    <Link to="/detail_product">
+                                        <img src={Download_icon} className="download_icon" alt="download_icon" />
+                                    </Link>
+                                    <img src={Bg3} alt="img_resources" data-aos="fade-up" className="img_resources" />
                                 </div>
-                                </Link>
-                                <div className="card_body_resources">
-                                    <div className="list_desc">
-                                        <h2 className="title_card">Design app healt</h2>
-                                        <span className="status">
+                                <div data-aos="fade-up" className="card_body_resources">
+                                    <div data-aos="fade-up" className="list_desc">
+                                        <h2 data-aos="fade-up" className="title_card">Design app healt</h2>
+                                        <span data-aos="fade-up" className="status">
                                             <img src={Free} alt="status" />
                                         </span>
                                     </div>
-                                    <div className="list_tools">
+                                    <div data-aos="fade-up" className="list_tools">
                                         <span>
                                             <img src={Figma} alt="tools" />
                                         </span>
@@ -150,20 +152,21 @@ export default function Detail_product() {
                                     </div>
                                 </div>
                             </div>
-                        <div className="card_resources">
+                        <div data-aos="fade-up" className="card_resources">
+                                <div data-aos="fade-up" className="card_head_resources">
                                 <Link to="/detail_product">
-                                <div className="card_head_resources">
-                                    <img src={Bg2} alt="img_resources" className="img_resources" />
-                                </div>
+                                    <img src={Download_icon} className="download_icon" alt="download_icon" />
                                 </Link>
-                                <div className="card_body_resources">
-                                    <div className="list_desc">
-                                        <h2 className="title_card">Design app healt</h2>
-                                        <span className="status">
+                                    <img src={Bg2} alt="img_resources" data-aos="fade-up" className="img_resources" />
+                                </div>
+                                <div data-aos="fade-up" className="card_body_resources">
+                                    <div data-aos="fade-up" className="list_desc">
+                                        <h2 data-aos="fade-up" className="title_card">Design app healt</h2>
+                                        <span data-aos="fade-up" className="status">
                                             <img src={Free} alt="status" />
                                         </span>
                                     </div>
-                                    <div className="list_tools">
+                                    <div data-aos="fade-up" className="list_tools">
                                         <span>
                                             <img src={Figma} alt="tools" />
                                         </span>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Hero, Partners, Benefits, Interested , Footer} from '../../components';
-import { Background } from '../../elements/';
+// import { Background } from '../../elements/';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -33,7 +33,7 @@ export default function Layout() {
 
     return (
       <>
-        <Background />
+        {/* <Background /> */}
         <Navbar active1="nav-link active act" active2="nav-link" active3="nav-link" />
         <Hero />
         <Partners />
