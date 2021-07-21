@@ -183,17 +183,17 @@
     transform: rotate(20deg);
     height: 130%;
     top: -19px;
-    background-color: rgba(224, 224, 224, 0.356);
+    background-color: rgba(255, 255, 255, 0.904);
 }
 
 @keyframes bfr {
     from {
         left: 0;
-        top: -19px;
+        top: -20px;
     }
     
     to {
-        top: -19px;
+        top: -20px;
         left: 100%;
     }
 }
