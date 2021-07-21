@@ -44,8 +44,16 @@ export default function Detail_product() {
                             Molestias facere velit amet nihil repellendus in.
                         </p>
                         <div>
-                            <img src={Free} data-aos="fade-up" className="status" alt="status" />
-                            <img src={Web_design} data-aos="fade-up" className="status2" alt="status2" />
+                            <div className="mb-1 mt-1">
+                                <span className="free">
+                                    Free
+                                </span>
+                                <span className="category">
+                                    Web design
+                                </span>
+                            </div>
+                            {/* <img src={Free} data-aos="fade-up" className="status" alt="status" />
+                            <img src={Web_design} data-aos="fade-up" className="status2" alt="status2" /> */}
                             <br />
                             <small data-aos="fade-up" className="price"><s>$15</s></small>
                             <br />
@@ -62,13 +70,13 @@ export default function Detail_product() {
                                 <img src={Eye} alt="viewers" />
                                 <br />
                                 <br />
-                                <span><span data-aos="fade-up" className="num_viewers">3.323</span> viewers</span>
+                                <span><span className="num_viewers">3.323</span> viewers</span>
                             </div>
                             <div data-aos="fade-up" className="downloads">
                                 <img src={Download_icon} alt="download" />
                                 <br />
                                 <br />
-                                <span><span data-aos="fade-up" className="num_viewers">3.323</span> viewers</span>
+                                <span><span className="num_viewers">3.323</span> viewers</span>
                             </div>
                         </div>
                         <div data-aos="fade-up" className="contributor">

@@ -133,6 +133,37 @@
     align-items: center;
 }
 
+.detail_content p {
+    width: 90%;
+}
+
+.free {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px 16px;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    background-color: rgb(255, 245, 185);
+}
+
+.category {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px 16px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 15px;
+    color: black;
+    background-color: rgb(113, 255, 255);
+}
+
 .images {
     width: 120px;
     margin: 15px;

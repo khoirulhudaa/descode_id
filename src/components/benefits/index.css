@@ -84,6 +84,7 @@
     background: rgba(255, 255, 255, 0.87);
     text-align: center;
     margin: 15px;
+    overflow: hidden;
     width: 27%;
     height: 300px;
     border-radius: 15px;

@@ -5,13 +5,18 @@ import { Link } from 'react-router-dom'
 
 
 export default function Navbar({active1, active2, active3}) {
+
+    const reload = () => {
+        window.location.reload();
+    }
+
     return (
         <React.Fragment>
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid wrap-navbar">
                     <div>
                         <a className="navbar-brand" href="#">
-                            <img src={Logo} alt="logo-descode" />
+                            <img src={Logo} onClick={reload} alt="logo-descode" />
                         </a>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

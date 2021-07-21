@@ -144,3 +144,56 @@
     position: relative;
     top: -25px;
 }
+
+.load_more {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.btn_load_more {
+    width: 166px;
+    height: 41px;
+    background: #E3EBFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.btn_load_more:hover {
+    filter: brightness(90%);
+    transition: 0.4s;
+}
+
+.skeleton {
+    position: relative;
+    overflow: hidden;
+}
+
+.skeleton::before {
+    position: absolute;
+    content: '';
+    width: 80px;
+    animation: bfr 3s ease infinite;
+    transform: rotate(20deg);
+    height: 130%;
+    top: -19px;
+    background-color: rgba(224, 224, 224, 0.356);
+}
+
+@keyframes bfr {
+    from {
+        left: 0;
+        top: -19px;
+    }
+    
+    to {
+        top: -19px;
+        left: 100%;
+    }
+}

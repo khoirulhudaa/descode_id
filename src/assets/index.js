@@ -5,7 +5,7 @@ import Tabung from './images/tabung.svg';
 import Soffyan from './images/soffyan.svg';
 import Sinit from './images/sinit.svg';
 import Ryan from './images/ryan.svg';
-import People_male from './images/people_male.svg';
+import People_male from './images/people_male2.png';
 import People_female from './images/people_female.svg';
 import Muk from './images/muk.svg';
 import Moneybird from './images/moneybird.svg';
@@ -33,6 +33,9 @@ import Bg1 from './images/bg1.svg';
 import Bg2 from './images/bg2.svg';
 import Bg3 from './images/bg3.svg';
 import Bg4 from './images/bg4.svg';
+import Bg5 from './images/Bg5.svg';
+import Bg6 from './images/Bg6.svg';
+import Bg7 from './images/Bg7.svg';
 import Bg_gradient from './images/bg_gradient.svg';
 import Amazon from './images/amazon.svg';
 import Albingia from './images/albingia.svg';
@@ -61,6 +64,7 @@ import Web_design from './images/web_design.svg';
 import Download_icon from './images/download_icon.svg';
 import Eye from './images/eye.svg';
 import Message from './images/pesan.svg';
+import Dots_request from './images/dots_request.svg';
 
 export {
     Logo, Edit, Tinder, Tabung, Soffyan, Sinit, Ryan, People_male, People_female, 
@@ -69,5 +73,5 @@ export {
     Capsul, Box, Bg1, Bg2, Bg3, Bg4, Bg_gradient, Amazon, Albingia, Circle_hero,
     Banner, Banner2, Search, Figma, Reacts, Flutter, Free, Send, El1, El2, El3, El4,
     Gr, Or, Google, Sakura, Sakura2, Descode_line, Face1, Face2, Web_design, Download_icon,
-    Eye, Message
+    Eye, Message, Bg5, Bg6, Bg7, Dots_request
 }
